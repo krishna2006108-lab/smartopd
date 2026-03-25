@@ -25,7 +25,7 @@ export async function GET(
       upNext,
       queueDetails
     });
-  } catch (err) {
+  } catch {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }

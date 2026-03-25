@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Activity, Home, LayoutDashboard, Stethoscope, Monitor } from "lucide-react";
+import { Activity, Home, LayoutDashboard } from "lucide-react";
 
 interface SmartNavbarProps {
   active?: "reception" | "admin" | "doctor" | "display" | "patient";

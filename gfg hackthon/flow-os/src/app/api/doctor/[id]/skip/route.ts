@@ -24,7 +24,7 @@ export async function POST(
       inCabin,
       queueDetails
     });
-  } catch (err) {
+  } catch {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }

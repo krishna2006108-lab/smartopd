@@ -1,8 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { Activity, Plus, FileText, Download, ArrowRight, ArrowUpRight } from "lucide-react";
-import Link from "next/link";
+import { Activity, Plus, FileText, Download, ArrowUpRight, Copy, Check, Info } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { QRCodeSVG } from "qrcode.react";
 import jsPDF from "jspdf";

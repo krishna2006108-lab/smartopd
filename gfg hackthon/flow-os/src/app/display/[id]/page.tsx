@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
 import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Activity, Tv, Monitor } from "lucide-react";
+import { Bell, Activity, Monitor } from "lucide-react";
 
 export default function WaitingRoomDisplay() {
   const params = useParams();

@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Activity, Users, Clock, RefreshCw, LogOut, Shield } from "lucide-react";
+import { Users, Clock, RefreshCw, LogOut, Shield } from "lucide-react";
 import SmartNavbar from "@/components/SmartNavbar";
 
 export default function AdminDashboardClient() {

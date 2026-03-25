@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       tokenId: patient.tokenId,
       message: "Parcha generated successfully"
     });
-  } catch (err) {
+  } catch {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
