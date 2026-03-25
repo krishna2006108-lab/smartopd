@@ -1,0 +1,59 @@
+﻿
+> flow-os@0.1.0 lint
+> eslint
+
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\admin\AdminDashboardClient.tsx
+   5:10  warning  'Activity' is defined but never used      @typescript-eslint/no-unused-vars
+  10:42  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\api\admin\logout\route.ts
+  3:28  warning  'req' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\api\doctor\[id]\next\route.ts
+  31:12  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\api\doctor\[id]\route.ts
+  28:12  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\api\doctor\[id]\skip\route.ts
+  27:12  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\api\patient\[id]\route.ts
+  20:12  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\api\reception\add\route.ts
+  24:12  warning  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\display\[id]\page.tsx
+    6:20  warning  'Tv' is defined but never used            @typescript-eslint/no-unused-vars
+   12:36  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  128:51  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\doctor\[id]\page.tsx
+   14:40  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   15:42  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   16:40  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   17:38  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  283:10  warning  'Stethoscope' is defined but never used   @typescript-eslint/no-unused-vars
+  283:29  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\layout.tsx
+  39:9  warning  Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\p\[id]\page.tsx
+   13:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  213:68  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\krish\gfg hackthon\flow-os\src\app\page.tsx
+   4:46  warning  'ArrowRight' is defined but never used    @typescript-eslint/no-unused-vars
+   5:8   warning  'Link' is defined but never used          @typescript-eslint/no-unused-vars
+  14:42  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\krish\gfg hackthon\flow-os\src\components\SmartNavbar.tsx
+  4:10  warning  'usePathname' is defined but never used  @typescript-eslint/no-unused-vars
+  5:43  warning  'Stethoscope' is defined but never used  @typescript-eslint/no-unused-vars
+  5:56  warning  'Monitor' is defined but never used      @typescript-eslint/no-unused-vars
+
+Γ£û 26 problems (11 errors, 15 warnings)
+
